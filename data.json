@@ -1,0 +1,22 @@
+{
+    "basics":{
+        "name":"arjun",
+        "role":"Fresher",
+        "email":"abcd@gmail.com",
+        "mobile":"+91 987654321",
+        "education":[
+            {
+                "degree":"SSC",
+                "percentage":90
+            },
+            {
+                "degree":"INTER",
+                "percentage":96
+            },
+            {
+                "degree":"B-Tech",
+                "percentage":87
+            }
+        ]
+    }
+}
