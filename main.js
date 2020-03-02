@@ -47,9 +47,11 @@ function display_info(info){
     mobile.textContent=info.mobile;
     card.append(mobile);
 
-    var button=document.createElement("a");
+    var button=document.createElement("button");
+    var l=document.createElement('a');
+    l.href="https://www.google.com/";
+    l.append(button);
     button.textContent="View Profile";
     button.classList.add("btn");
-    card.append(button);
-
+    card.append(l);
 }
